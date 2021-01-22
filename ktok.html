@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<!-- refencing work by Kyle Shanks https://codepen.io/mavrK/pen/ZQwmYW -->
+<html>
+    
+<style>
+/* sect 1 photo grid */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/* sect 1 photo grid end */
+
+
+</style>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Major Assigment 2: ALWAYS A HOLIDAY</title>
+<link rel="stylesheet" href="./ktok.css">
+<script type="text/javascript" src="scripts/processing.min.js"></script> 
+
+</head>
+<body>
+<!-- Main Navigation Bar -->
+<div class="nav-bar">
+    <div class="nav-logo"><img src="images/TAB_logo.png" width="10%" height="10%" /></div>
+    <div class="nav-links-container">
+        <a class="nav-link active" href="#topSection" id="topLink">Start</a>
+        <a class="nav-link" href= "index.html">Return to TAB Travel</a>
+        </div>
+</div>
+
+<!-- Landing Page -->
+<div class="rela-block top-section grad-back" id="topSection">
+    <div class="abs-cent-text top-text">
+        <h1 class="big-text"> KILOMETER TO KILIMANJARO</h1>
+        <p class="top-small-text">The trek of a lifetime</p>
+    <div>
+     <audio id="music" controls autoplay loop>
+     <source src="audio/mount%20kilimanjaro%20climb.ogg" type="audio/ogg"/>
+     <source src="audio/mount%20kilimanjaro%20climb.mp3" type="audio/mpeg"/>
+     <source src="audio/mount%20kilimanjaro%20climb.wav" type="audio/wav"/>
+    </audio>
+    </div>  
+    </div>
+</div>
+
+
+<div class="rela-block basecamp-section" id="baseLink">
+ <h1 class="half-big-text has-border">Base Camp</h1>
+</div>
+
+
+<!-- About Us Page -->
+<!-- Section 1 Photo Grid -->
+<!--refrence: https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp -->
+<div class="row"> 
+  <div class="column">
+    <img src="./images/mountain/1c8b252d06c7fa3050173a055c9bf780.jpg" style="width:100%">
+    <img src="./images/mountain/78093104_1402463909913648_3288595577385779200_n-1175x500.jpg" style="width:100%">
+    <img src="./images/mountain/climbing-kilimanjaro-5-day-marangu-route-tour-2-267770_1590486862.jpg" style="width:100%">
+    <img src="./images/mountain/image1170x530cropped.jpg" style="width:100%">
+    <img src="./images/mountain/Mount-Kilimanjaro-Tanzania.jpg" style="width:100%">
+    <img src="./images/mountain/ND-porters-on-ridge-with-Kibo-1.jpg" style="width:100%">
+    <img src="./images/mountain/Rock-Falls.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="./images/mountain/tusker-kilimanjaro-climb-cost.jpg" style="width:100%">
+    <img src="./images/mountain/Uhuru_Peak_Mt._Kilimanjaro_2-e1510588516804.jpg" style="width:100%">
+    <img src="./images/mountain/2523.jpg" style="width:100%">
+    <img src="./images/mountain/382478_10151924120880063_1468466047_n-e1506716492910.jpg" style="width:100%">
+    <img src="./images/mountain/a7ed9aa7a90e631e34d010167b5044fa.jpg" style="width:100%">
+    <img src="./images/mountain/a26aa2e66bb396fa075cb108282f010b.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="./images/mountain/adventure_international_2-scaled.jpg" style="width:100%">
+    <img src="./images/mountain/DSC_0655b.jpg" style="width:100%">
+    <img src="./images/mountain/GettyImages-186857080-58ae7b1a3df78c345ba389a8.jpg" style="width:100%">
+    <img src="./images/mountain/group-kili-2000x1125.jpg" style="width:100%">
+    <img src="./images/mountain/Hiking-Mount-Kilimanjaro-5.jpg" style="width:100%">
+    <img src="./images/mountain/jumping-at-the-summit-of-the-the-tallest-freestanding-mountain-on-earth_2169333_m__1920x864.jpg" style="width:100%">
+    <img src="./images/mountain/karanga-camp.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="./images/mountain/kilimanjaro-trekking.jpg" style="width:100%">
+    <img src="./images/mountain/kilimanjaro-trekking.jpg" style="width:100%">
+    <img src="./images/mountain/Sunrise-Mount-Kilimanjaro-Tanzania.jpg" style="width:100%">
+    <img src="./images/mountain/sundowners_kilimanjaro_tortilis_camp_kenya_timbuktu.jpg" style="width:100%">
+    <img src="./images/mountain/Uhuru_Peak_Mt._Kilimanjaro_2-e1510588516804.jpg" style="width:100%">
+    <img src="./images/mountain/rebecca-rusch-mount-kilimanjaro-2016.jpg" style="width:100%">
+  </div>
+</div>
+    
+
+    
+<!-- Section 2 the PeakMission Statment -->
+<div class="rela-block peak-section" id="peakSection">
+    <h1 class="half-big-text has-border">The Peak</h1>
+    
+    <video id="threading" width="100%" height="auto" autoplay loop mute controls preload=”auto”>
+
+      <source src="video/mountanclimb.mp4" type="video/mp4"/>
+      <source src="video/mountanclimb.ogv" type="video/ogg"/>
+
+    </video>
+</div>
+
+
+
+<!-- Mission Statment Page -->
+<div class="rela-block transcendence-section" id="transcendenceSection">
+    <h1 class="half-big-text has-border">Transcendence</h1>
+    
+    <canvas id="sketch" data-processing-sources="./giraffe/giraffe.pde"></canvas>
+
+</div>
+
+<!-- Footer -->
+<div class="rela-block footer-section">
+    <h2 class="small-header top-link">Back to Top</h2>
+    <p><img src="images/TAB_logo.png" width="10%" height="10%" id="logo"/></p>
+    <p>It's Always a Holiday</p>
+</div>
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+   
+     
+
+
+</body>
+</html>
